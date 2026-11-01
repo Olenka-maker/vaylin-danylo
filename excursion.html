@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Екскурсії</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🏔️ Екскурсії в гори</h1>
+
+    <nav>
+        <a href="index.html">Головна</a>
+        <a href="catalog.html">Каталог</a>
+        <a href="excursion.html">Екскурсії</a>
+    </nav>
+</header>
+
+<main>
+
+    <h2>Запишись на екскурсію!</h2>
+
+    <p>
+        Заповни форму нижче, щоб забронювати
+        місце у туристичній групі.
+    </p>
+
+    <img class="main-image"
+         src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=1000"
+         alt="Гірський краєвид">
+
+    <h2>Форма запису</h2>
+
+    <form>
+
+        <label>Твоє ім'я:</label>
+        <input type="text" placeholder="Введи ім'я" required>
+
+        <label>Номер телефону:</label>
+        <input type="tel" placeholder="+380..." required>
+
+        <label>Електронна пошта:</label>
+        <input type="email" placeholder="Введи email">
+
+        <label>Обери маршрут:</label>
+
+        <select>
+            <option>Говерла</option>
+            <option>Піп Іван</option>
+            <option>Свидовець</option>
+            <option>Буковель</option>
+        </select>
+
+        <label>Дата екскурсії:</label>
+        <input type="date">
+
+        <label>Кількість учасників:</label>
+        <input type="number" min="1" max="10">
+
+        <label>Твої побажання:</label>
+        <textarea rows="4"
+                  placeholder="Напиши коментар..."></textarea>
+
+        <p>
+            <input type="checkbox">
+            Я погоджуюся з умовами екскурсії
+        </p>
+
+        <button type="submit">Записатися</button>
+
+    </form>
+
+</main>
+
+<footer>
+    <p>© 2026 Гори світу</p>
+</footer>
+
+</body>
+</html>
